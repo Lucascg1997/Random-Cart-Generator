@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover;
+  border-color: seagreen;
+}
+
+#button {
+  border-color: red;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+span {
+  color: black;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.buttonBox {
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.topBox,
+.bottomBox {
+  height: 25%;
+  font-size: 90px;
+  display: block;
+  margin-left: 10%;
+}
+
+.bottomBox {
+  margin-right: 10%;
+  transform: rotate(180deg);
+}
+
+.centerBox {
+  height: 50%;
+  text-align: center;
+  font-size: 150px;
+  display: block;
+}
